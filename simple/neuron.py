@@ -1,7 +1,7 @@
 class Neuron:
     weight = 0.5 # random weight, it will be corrected in train
     lastError = 1 # random value, it must be > correctionStep to start the train
-    correctionStep = 0.0001 # smaller correction will give better result but will take more time
+    correctionStep = 0.000005 # smaller correction will give better result but will take more time
 
     # main action to calculate necessary value
     def processInputData(self, inputValue):
